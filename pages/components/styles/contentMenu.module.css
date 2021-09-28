@@ -1,0 +1,22 @@
+.container_content {
+	position: relative;
+	z-index: 111;
+	background-size: 100% 100%;
+	background-position: 0px -17px;
+	max-width: 1260px;
+	margin: 0 auto;
+	height: 620px;
+	height: 47.2vmax;
+}
+.container_menu {
+	position: absolute;
+	bottom: 0px;
+	background: var(--theme-default-arrowBack);
+	width: 100%;
+	height: 55px;
+}
+.content_onlain {
+	position: absolute;
+	bottom: 92px;
+	right: 424px;
+}

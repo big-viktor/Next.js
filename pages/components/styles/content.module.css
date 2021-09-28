@@ -1,0 +1,29 @@
+.wraper {
+	padding-top: 35px;
+	max-width: 1260px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.content_menu_left {
+	width: 42%;
+}
+.container_down {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.container_img_router {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 455px;
+	width: 100%;
+}
+.container_infoBtn {
+	margin-right: 30px;
+}
+.content_menu_right {
+	width: 57%;
+}

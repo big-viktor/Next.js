@@ -1,0 +1,19 @@
+.container_baner_menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	max-width: 1260px;
+}
+.content_menu {
+	width: 920px;
+	padding-right: 84px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.baner_avatar {
+	position: absolute;
+	bottom: 0;
+	left: 36px;
+}
+@media (max-width: 1260px) {
+}

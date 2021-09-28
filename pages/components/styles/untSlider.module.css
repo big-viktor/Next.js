@@ -1,0 +1,22 @@
+.container_slider {
+	position: absolute;
+	background-color: var(--theme-default-sliderCont);
+	height: 100px;
+	padding-left: 10px;
+	padding-top: 10px;
+	width: 326px;
+	right: 13px;
+	bottom: 56px;
+}
+.container_text {
+	position: absolute;
+	right: 189px;
+	bottom: 160px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: #ffffff;
+}

@@ -1,0 +1,22 @@
+.container_info_text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 25px;
+	color: var(--theme-default-infoText);
+	max-width: 386px;
+}
+.container_info_text_backg {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 25px;
+	color: var(--theme-default-infoText);
+	width: 90%;
+	min-height: 430px;
+	background: var(--theme-default-infoTextRevers);
+	padding: 30px 56px 20px 56px;
+	margin-top: 25px;
+}

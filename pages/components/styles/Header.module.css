@@ -1,0 +1,23 @@
+.container_header {
+	width: 100%;
+	background: var(--theme-default-header);
+}
+.content_header {
+	margin: 0 auto;
+	max-width: 1255px;
+	padding: 16px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.icon_content {
+	width: 492px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 32px;
+}
+.button_color {
+	width: 160px;
+}

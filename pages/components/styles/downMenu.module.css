@@ -1,0 +1,32 @@
+.container_down {
+	position: relative;
+}
+.content_down {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: var(--theme-default-arrowBack);
+	width: 100%;
+	padding: 21px 32px;
+	margin-top: 15px;
+}
+.content_down_btn {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: var(--theme-default-arrow);
+	cursor: pointer;
+}
+.i_aroow {
+	border: solid var(--theme-default-arrow);
+	border-width: 0px 3px 3px 0;
+	display: inline-block;
+	padding: 0px;
+	width: 13px;
+	height: 13px;
+	transform: rotate(315deg);
+	cursor: pointer;
+}

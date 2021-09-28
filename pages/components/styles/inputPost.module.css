@@ -1,0 +1,17 @@
+.placeholder_input {
+	border: none;
+	background: var(--theme-default-inputBack);
+	border-radius: 5px;
+	width: 423px;
+	width: 55%;
+	padding: 15px 10px;
+	margin-right: 80px;
+}
+.placeholder_input::placeholder {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+	color: var(--theme-default-inputPlaceholder);
+}

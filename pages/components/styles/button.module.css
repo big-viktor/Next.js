@@ -1,0 +1,14 @@
+.button_container {
+	border: none;
+	width: 100%;
+	background: #4fd627;
+	border-radius: 2px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}

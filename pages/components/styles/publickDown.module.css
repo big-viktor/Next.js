@@ -1,0 +1,27 @@
+.conyainer_public_down {
+	position: relative;
+}
+.container_public_activ {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	background: var(--theme-default-dropdownBack);
+	padding: 20px 24px;
+	justify-content: space-between;
+}
+.i_aroow {
+	border: solid var(--theme-default-publicAroww);
+	border-width: 0px 4px 4px 0;
+	display: inline-block;
+	padding: 0px;
+	width: 20px;
+	height: 20px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+.content_avatar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}

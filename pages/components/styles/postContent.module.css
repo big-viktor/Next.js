@@ -1,0 +1,13 @@
+.content_post_content {
+}
+.content_post_text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 25px;
+	color: var(--theme-default-postContentText);
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}

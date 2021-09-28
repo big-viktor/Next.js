@@ -1,0 +1,26 @@
+.container_time {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 115%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 25px;
+	color: var(--theme-default-timeText);
+}
+.content_time {
+	margin-left: 25px;
+	display: flex;
+	flex-direction: column;
+}
+.content_title {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: var(--theme-default-timeTitle);
+}
