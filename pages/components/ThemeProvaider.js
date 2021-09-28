@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { changeCssVariables } from '../../pages/components/changeCssVariables.js';
+import { changeCssVariables } from '../api/changeCssVariables.js';
 
 export const THEME_Prehistori = 'light';
 export const THEME_Standart = 'dark';
