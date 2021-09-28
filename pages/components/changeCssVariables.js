@@ -5,6 +5,7 @@
 --theme-dark-УникальноеИмя    # для "dark"
 --theme-neitral-УникальноеИмя # для "neitral"
 */
+import React from 'react';
 
 export const changeCssVariables = theme => {
   if (process.browser) {
