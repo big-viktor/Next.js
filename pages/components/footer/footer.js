@@ -9,7 +9,7 @@ import IconF3 from './/../../../public/Group 1 (1).png';
 
 export default function Footer(props) {
   const images = [IconF1, IconF2, IconF3];
-  const namePage = ["Timeline", "About us", "Gallery", "Roadmap", "Mint", "FAQ"]
+  const namePage = ["Timeline", "About us", "Gallery", "Roadmap", "Mint",]
   return (
 
     <>
