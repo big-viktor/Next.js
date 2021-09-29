@@ -60,7 +60,7 @@ const ContentMenu = ({ sendUrl }) => {
         </div>
         <div className={styles.container_menu}>
           <div className={styles.content_onlain}>
-            <Avatar AvatarImg={avatars} />
+            <Avatar AvatarImg={avatars.src} />
             <div>
               <TextOnlain textTitle={text} />
               <div className={styles.container_images}>
