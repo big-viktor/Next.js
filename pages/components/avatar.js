@@ -8,7 +8,7 @@ const Avatar = ({ AvatarImg }) => {
 	return (
 		<>
 			<div className={styles.container_avatar} id="containerAvatar">
-				<Image src={AvatarImg} alt="Vercel Logo" className={styles.img_avatar} />
+				<img src={AvatarImg.src} alt="Vercel Logo" className={styles.img_avatar} />
 				<div className={styles.icon_camera} >
 					<Image src={iconCamer} alt="Vercel Logo" width={31} height={31} />
 				</div>

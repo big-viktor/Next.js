@@ -18,6 +18,20 @@
 	justify-content: space-between;
 	padding-right: 32px;
 }
+.icon_img {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+}
 .button_color {
 	width: 160px;
+}
+@media (max-width: 650px) {
+	.icon_img {
+		display: none;
+	}
+	.icon_content {
+		width: 30%;
+	}
 }

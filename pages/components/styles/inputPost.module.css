@@ -3,9 +3,9 @@
 	background: var(--theme-default-inputBack);
 	border-radius: 5px;
 	width: 423px;
-	width: 55%;
+	width: 100%;
 	padding: 15px 10px;
-	margin-right: 80px;
+	margin-left: 20px;
 }
 .placeholder_input::placeholder {
 	font-family: Roboto;
@@ -14,4 +14,17 @@
 	font-size: 21px;
 	line-height: 25px;
 	color: var(--theme-default-inputPlaceholder);
+}
+@media (max-width: 500px) {
+	.placeholder_input {
+		height: 25px;
+	}
+	.placeholder_input::placeholder {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 16px;
+		color: var(--theme-default-inputPlaceholder);
+	}
 }

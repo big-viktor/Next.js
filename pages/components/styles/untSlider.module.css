@@ -20,3 +20,27 @@
 	text-transform: uppercase;
 	color: #ffffff;
 }
+@media (max-width: 989px) {
+	.container_slider {
+		position: relative;
+		background-color: var(--theme-default-sliderCont);
+		height: 100px;
+		padding-left: 0px;
+		padding-top: 10px;
+		width: 100%;
+		right: 0;
+		bottom: 0;
+	}
+	.container_text {
+		position: relative;
+		right: 0px;
+		bottom: 6px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 21px;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+}

@@ -18,3 +18,11 @@
 	border-bottom: 6px solid var(--theme-default-linkAHover);
 	color: var(--theme-default-linkAHoverText);
 }
+@media (max-width: 665px) {
+	.text_linkA {
+		font-size: 12px;
+		line-height: 14px;
+		height: 15px;
+		padding-right: 5px;
+	}
+}

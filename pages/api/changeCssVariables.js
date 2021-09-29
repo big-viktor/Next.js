@@ -35,6 +35,7 @@ export const changeCssVariables = theme => {
     root.style.setProperty('--theme-default-timeTitle', `var(--theme-${theme}-timeTitle)`);
     root.style.setProperty('--theme-default-timeText', `var(--theme-${theme}-timeText)`);
     root.style.setProperty('--theme-default-postContentText', `var(--theme-${theme}-postContentText)`);
+    root.style.setProperty('--theme-default-activTextMob', `var(--theme-${theme}-activTextMob)`);
 
 
   }

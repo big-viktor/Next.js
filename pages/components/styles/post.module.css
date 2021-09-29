@@ -18,3 +18,34 @@
 	flex-direction: row;
 	align-items: center;
 }
+.img_min_avatar {
+	width: 89px;
+	height: 89px;
+}
+.container_post_add {
+	display: flex;
+	align-items: center;
+	width: 80%;
+}
+@media (max-width: 565px) {
+	.img_min_avatar {
+		width: 40px;
+		height: 40px;
+	}
+	.foto_img {
+		margin-left: 5px;
+		width: 20px;
+		height: 15px;
+		margin-top: 3px;
+	}
+	.img_vector {
+		height: 17px;
+	}
+	.container_vector {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 45px;
+	}
+}

@@ -9,20 +9,6 @@ import { useTheme, THEME_Prehistori, THEME_Standart, THEME_Future } from '../com
 
 
 const PostContent = ({ text, src, title }) => {
-  // const Prehistori = "PUNKS Prehistoric";
-  // const Standart = "PUNKS XXI";
-  // const Future = "PUNKS Space Oddity";
-  // const [text, setText] = useState(Standart);
-  // const isTheme = useTheme();
-  // useEffect(() => {
-  // 	switch (isTheme.theme) {
-  // 		case THEME_Prehistori: setText(Prehistori); break;
-  // 		case THEME_Standart: setText(Standart); break;
-  // 		case THEME_Future: setText(Future); break;
-  // 		default: setText(Standart);
-
-  // 	}
-  // }, [isTheme]);
   return (
     <>
       <div className={styles.content_post_content}>
@@ -34,7 +20,7 @@ const PostContent = ({ text, src, title }) => {
             {text}
           </div>
         </div>
-        <img src={src} />
+        <img src={src} className={styles.content_img_post} />
       </div>
     </>
   )

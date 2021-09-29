@@ -19,6 +19,7 @@ import IconRoadmap2 from '../../public/gallery/roudmapImg.png'
 import IconRoadmap3 from '../../public/gallery/icon1.png'
 import Text from './text';
 import RigMenu from './rigMenu';
+import UnstyledSlider from './sliders';
 
 
 const Content = ({ }) => {
@@ -71,11 +72,15 @@ const Content = ({ }) => {
           <DownMenu name="Gallery" >
             <div className={styles.container_img_router}>
               {images.map((name, index) => (
-                <ImgRouter
-                  routerImg={name}
-                  key={index}
-                  reverseText={false}
-                />
+                <>
+                  <div className={styles.img_map}>
+                    <ImgRouter
+                      routerImg={name}
+                      key={index}
+                      reverseText={false}
+                    />
+                  </div>
+                </>
               ))}
             </div>
           </DownMenu>
@@ -83,21 +88,23 @@ const Content = ({ }) => {
             <div className={styles.container_img_router}>
               {Object.entries(roadmapImg).map(([key, value], i) => (
                 <>
-                  <ImgRouter
-                    reverseText={true}
-                    routerImg={value.img}
-                    key={key}
-                    title={value.title}
-                    text={value.text}
-                    backImg={value.backImg}
-                  />
+                  <div className={styles.img_map2}>
+                    <ImgRouter
+                      reverseText={true}
+                      routerImg={value.img}
+                      key={key}
+                      title={value.title}
+                      text={value.text}
+                      backImg={value.backImg}
+                    />
+                  </div>
                 </>
               ))}
             </div>
             <div className={styles.container_down}>
-              <div></div>
+              <div className={styles.display_activ}></div>
               <InfoText backgText={true} text="У нас планируется игра в 3 эпохах. Сейчас вам доступно только Панки XXI, но в будущем мы сделаем панки прошлого и будущего. " />
-              <div></div>
+              <div className={styles.display_activ}></div>
             </div>
           </DownMenu>
         </div>

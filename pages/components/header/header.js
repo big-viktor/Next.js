@@ -58,9 +58,12 @@ const Header = ({ title }) => {
             <Image src={logo} alt="Vercel Logo" />
           </div>
           <div className={styles.icon_content}>
-            {icon.map((item, index) => {
-              return <Image src={item} alt="Vercel Logo" width={31} height={31} key={index.toString()} />
-            })}
+            <div className={styles.icon_img} >
+              {icon.map((item, index) => {
+                return <Image src={item} alt="Vercel Logo" width={31} height={31} key={index.toString()} />
+              })}
+            </div>
+
             <div className={styles.button_color}>
               <ButtonColor name="MINT" />
             </div>

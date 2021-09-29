@@ -13,9 +13,6 @@ import IconFuture from '../../public/gallery/10 (4).png';
 import IconPrehistori from '../../public/gallery/9.png';
 
 
-
-
-
 const MinAvatar = () => {
 
 
@@ -34,7 +31,7 @@ const MinAvatar = () => {
 
     return (
         <>
-            <img src={vector.src} />
+            <img src={vector.src} className={styles.img_min_avatar} />
         </>
 
     )

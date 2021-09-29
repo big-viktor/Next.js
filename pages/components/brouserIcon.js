@@ -27,7 +27,7 @@ const BrouserIcon = ({ }) => {
   }, [isTheme]);
   return (
     <>
-      <img src={backg.src} />
+      <img src={backg.src} className={styles.borowuser_img} />
     </>
 
   )

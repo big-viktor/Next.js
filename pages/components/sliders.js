@@ -106,8 +106,6 @@ const marks = [
 ];
 
 
-
-
 export default function UnstyledSlider() {
   const [count, setCount] = useState();
   const isTheme = useTheme();
@@ -128,7 +126,7 @@ export default function UnstyledSlider() {
         Change the era
       </div>
       <div className={styles.container_slider}>
-        <Box sx={{ width: 300 }}>
+        <Box >
           <StyledSlider
             track={false}
             aria-labelledby="track-false-slider"

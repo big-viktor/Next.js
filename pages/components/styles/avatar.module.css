@@ -16,3 +16,19 @@
 	bottom: 16px;
 	z-index: 120;
 }
+@media (max-width: 989px) {
+	.container_avatar {
+		bottom: 95px;
+	}
+}
+@media (max-width: 665px) {
+	.container_avatar {
+		bottom: 25px;
+	}
+	.img_avatar {
+		position: relative;
+		z-index: 10;
+		width: 151px;
+		height: 150px;
+	}
+}

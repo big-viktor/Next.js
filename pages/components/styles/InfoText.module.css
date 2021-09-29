@@ -20,3 +20,12 @@
 	padding: 30px 56px 20px 56px;
 	margin-top: 25px;
 }
+@media (max-width: 555px) {
+	.container_info_text_backg {
+		min-height: auto;
+		background: var(--theme-default-infoTextRevers);
+		padding: 30px 15px 20px 15px;
+		margin-top: 25px;
+		width: 100%;
+	}
+}

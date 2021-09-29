@@ -32,3 +32,22 @@
 	max-width: 115px;
 	height: 115px;
 }
+@media (max-width: 450px) {
+	.wraper_revers_img {
+		max-width: 80px;
+		height: 80px;
+	}
+	.wraper_revers_img_two {
+		filter: brightness(40%);
+		max-width: 80px;
+		height: 80px;
+	}
+	.title_router {
+		font-size: 12px;
+		line-height: 12px;
+	}
+	.text_router {
+		font-size: 12px;
+		line-height: 12px;
+	}
+}

@@ -58,25 +58,25 @@ const Post = () => {
   console.log(icon.src)
   return (
     <div className={styles.container_post}>
-      <MinAvatar />
-      <InputPost placeholder="Create your own post" />
+      <div className={styles.container_post_add}>
+        <MinAvatar />
+        <InputPost placeholder="Create your own post..." />
+      </div>
       {icon.map((name, index) => (
         <>
           <div className={styles.container_img}>
-            <img src={name.src} key={index} />
-            {/* <ImgRouter routerImg={name} key={index} /> */}
+            <img src={name.src} key={index} className={styles.foto_img} />
           </div>
         </>
       ))}
       <div className={styles.container_vector}>
         {vector.map((name, index) => (
           <>
-            <div className={styles.img_vector}>
-              <ImgRouter
-                routerImg={name}
-                key={index}
-              />
-            </div>
+            <img
+              src={name.src}
+              key={index}
+              className={styles.img_vector}
+            />
           </>
         ))}
       </div>
