@@ -24,7 +24,7 @@ const InfoBtn = ({ IconInfo }) => {
   }, [isTheme]);
   return (
     <>
-      <div className={styles.container_info}>
+      <div className={styles.container_info_btn}>
         <img src={infoIcon.src} alt="Vercel Logo" className={styles.info_img} />
       </div>
     </>

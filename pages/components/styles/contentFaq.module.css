@@ -1,0 +1,26 @@
+.container_content {
+	max-width: 790px;
+	margin: 0 auto;
+}
+
+.content_children_down {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 25px;
+	color: var(--theme-default-infoText);
+}
+.container_title {
+	padding: 120px 0px;
+}
+@media (max-width: 815px) {
+	.container_content {
+		padding: 0 40px;
+	}
+}
+@media (max-width: 615px) {
+	.container_title {
+		padding: 50px 0px;
+	}
+}

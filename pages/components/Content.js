@@ -102,9 +102,7 @@ const Content = ({ }) => {
               ))}
             </div>
             <div className={styles.container_down}>
-              <div className={styles.display_activ}></div>
               <InfoText backgText={true} text="У нас планируется игра в 3 эпохах. Сейчас вам доступно только Панки XXI, но в будущем мы сделаем панки прошлого и будущего. " />
-              <div className={styles.display_activ}></div>
             </div>
           </DownMenu>
         </div>

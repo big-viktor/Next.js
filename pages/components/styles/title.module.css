@@ -1,0 +1,9 @@
+.text_title {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 52px;
+	text-align: center;
+	color: var(--theme-default-titleAbout);
+}

@@ -59,6 +59,19 @@ const StyledSlider = styled(SliderUnstyled)(
     line-height: 25px;
     text-align: center;
     color: var(--theme-default-slider);
+    transform: translateX(-50%);
+  }
+  @media(max-width:640px){
+    & .MuiSlider-markLabel{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      color: var(--theme-default-slider);
+      transform: translateX(-50%);
+    }
   }
   & .MuiSlider-thumb {
     position: absolute;
@@ -91,16 +104,16 @@ const StyledSlider = styled(SliderUnstyled)(
 );
 const marks = [
   {
-    value: 5,
+    value: 15,
     label: 'Prehistoric',
   },
   {
-    value: 45,
+    value: 50,
     label: 'XXI',
   },
   {
     label: 'Space Oddity',
-    value: 78,
+    value: 85,
 
   },
 ];
@@ -129,7 +142,7 @@ export default function UnstyledSlider() {
         <Box >
           <StyledSlider
             track={false}
-            aria-labelledby="track-false-slider"
+            aria-label="Restricted values"
             getAriaValueText={valuetext}
             defaultValue={50}
             marks={marks}

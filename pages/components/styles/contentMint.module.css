@@ -1,0 +1,42 @@
+.container_mint {
+	max-width: 587px;
+	margin: 0 auto;
+}
+.container_mint_title {
+	padding-top: 140px;
+	padding-bottom: 40px;
+}
+.container_mint_input {
+	margin-bottom: 30px;
+}
+.container_mint_text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 28px;
+	color: var(--theme-default-logText);
+	margin-top: 35px;
+	max-width: 420px;
+}
+.container_mint_BTN {
+	max-width: 198px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 150px;
+}
+@media (max-width: 587px) {
+	.container_mint {
+		padding: 0px 44px;
+	}
+}
+@media (max-width: 470px) {
+	.container_mint_text {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+	}
+}

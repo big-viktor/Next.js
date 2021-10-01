@@ -1,5 +1,6 @@
 .button_container {
 	border: none;
+	height: 100%;
 	width: 100%;
 	background: #4fd627;
 	border-radius: 2px;
@@ -10,5 +11,16 @@
 	line-height: 25px;
 	text-align: center;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: var(--theme-default-btnMint);
+}
+@media (max-width: 680px) {
+	.button_container {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 16px;
+		text-align: center;
+		text-transform: uppercase;
+	}
 }

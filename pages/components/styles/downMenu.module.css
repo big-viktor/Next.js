@@ -30,3 +30,31 @@
 	transform: rotate(315deg);
 	cursor: pointer;
 }
+@media (max-width: 540px) {
+	.content_down {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background: var(--theme-default-arrowBack);
+		width: 100%;
+		padding: 21px 32px;
+		margin-top: 15px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.content_down_btn {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 21px;
+		text-transform: uppercase;
+		color: var(--theme-default-arrow);
+		cursor: pointer;
+		width: 100%;
+	}
+	.i_aroow {
+		width: 10px;
+		height: 10px;
+	}
+}

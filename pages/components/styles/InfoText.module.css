@@ -14,7 +14,7 @@
 	font-size: 21px;
 	line-height: 25px;
 	color: var(--theme-default-infoText);
-	width: 90%;
+	width: 100%;
 	min-height: 430px;
 	background: var(--theme-default-infoTextRevers);
 	padding: 30px 56px 20px 56px;

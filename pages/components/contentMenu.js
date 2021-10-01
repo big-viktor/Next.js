@@ -60,8 +60,10 @@ const ContentMenu = ({ sendUrl }) => {
         </div>
         <div className={styles.container_menu}>
           <div className={styles.content_onlain}>
-            <Avatar AvatarImg={avatars.src} />
-            <div>
+            <div className={styles.container_avatar}>
+              <Avatar AvatarImg={avatars.src} />
+            </div>
+            <div className={styles.container_text}>
               <TextOnlain textTitle={text} />
               <div className={styles.container_images}>
                 {images.map((name, index) => (

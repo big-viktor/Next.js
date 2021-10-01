@@ -19,7 +19,7 @@ import iconNeitral1 from '../../../public/Group (10).png';
 import iconNeitral2 from '../../../public/Group 1 (2).png';
 import iconNeitral3 from '../../../public/Vector (5).png';
 
-const Header = ({ title }) => {
+const Header = ({ title, logButton }) => {
 
   const imgStandart = [Icon1, Icon2, Icon3];
   const imgNeitral = [iconNeitral1, iconNeitral2, iconNeitral3];
@@ -63,10 +63,19 @@ const Header = ({ title }) => {
                 return <Image src={item} alt="Vercel Logo" width={31} height={31} key={index.toString()} />
               })}
             </div>
+            {!logButton ?
+              (<>
+                <div className={styles.button_color}>
+                  <ButtonColor name="MINT" />
+                </div>
+              </>
+              ) : (
+                <>
+                  {undefined}
+                </>
+              )}
 
-            <div className={styles.button_color}>
-              <ButtonColor name="MINT" />
-            </div>
+
           </div>
         </div>
       </div>

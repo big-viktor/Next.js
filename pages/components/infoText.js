@@ -7,18 +7,7 @@ import { useTheme, THEME_Prehistori, THEME_Standart, THEME_Future } from '../com
 
 
 const InfoText = ({ text, backgText }) => {
-  const isTheme = useTheme();
 
-  // const [infoIcon, setInfoIcon] = useState(InfoImg);
-  // useEffect(() => {
-  //     switch (isTheme.theme) {
-  //         case THEME_Prehistori: setInfoIcon(InfoImg2); break;
-  //         case THEME_Standart: setInfoIcon(InfoImg); break;
-  //         case THEME_Future: setInfoIcon(InfoImg3); break;
-  //         default: setInfoIcon(InfoImg);
-
-  //     }
-  // }, [isTheme]);
   return (
     <>
       {!backgText ? (

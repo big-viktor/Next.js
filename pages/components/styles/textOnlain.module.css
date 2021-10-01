@@ -1,6 +1,7 @@
 .container_onlain {
 	display: flex;
 	flex-direction: column;
+	margin-left: 40px;
 }
 .backg_activ {
 	background: #2196f3;
@@ -45,7 +46,7 @@
 	.container_onlain {
 		display: flex;
 		flex-direction: column;
-		margin-left: 10px;
+		margin-left: 0px;
 	}
 	.content_activ {
 		width: 100%;

@@ -167,6 +167,60 @@
 	--theme-neitral-activTextMob: #ffffff;
 	--theme-default-activTextMob: var(--theme-dark-activTextMob);
 
+	/* THEMES titleAbout */
+	--theme-light-titleAbout: #fffadc;
+	--theme-dark-titleAbout: #444445;
+	--theme-neitral-titleAbout: #7a4fe8;
+	--theme-default-titleAbout: var(--theme-dark-titleAbout);
+
+	/* THEMES cardName */
+	--theme-light-cardName: #422b1a;
+	--theme-dark-cardName: #3b5a99;
+	--theme-neitral-cardName: #ffffff;
+	--theme-default-cardName: var(--theme-dark-cardName);
+
+	/* THEMES cardLord */
+	--theme-light-cardLord: #d6c699;
+	--theme-dark-cardLord: #c8c9cd;
+	--theme-neitral-cardLord: #747da1;
+	--theme-default-cardLord: var(--theme-dark-cardLord);
+
+	/* THEMES textCardInfo */
+	--theme-light-textCardInfo: #2c2c2c;
+	--theme-dark-textCardInfo: #2c2c2c;
+	--theme-neitral-textCardInfo: #ffffff;
+	--theme-default-textCardInfo: var(--theme-dark-textCardInfo);
+
+	/* THEMES placeholderLog */
+	--theme-light-placeholderLog: #ccba89;
+	--theme-dark-placeholderLog: #b7b6bb;
+	--theme-neitral-placeholderLog: #66666b;
+	--theme-default-placeholderLog: var(--theme-dark-placeholderLog);
+
+	/* THEMES logText */
+	--theme-light-logText: #422b1a;
+	--theme-dark-logText: #3b5a99;
+	--theme-neitral-logText: #7a4fe8;
+	--theme-default-logText: var(--theme-dark-logText);
+
+	/* THEMES logIputBacg */
+	--theme-light-logIputBacg: #fffadc;
+	--theme-dark-logIputBacg: #ffffff;
+	--theme-neitral-logIputBacg: #30333f;
+	--theme-default-logIputBacg: var(--theme-dark-logIputBacg);
+
+	/* THEMES btnMint */
+	--theme-light-btnMint: #422b1a;
+	--theme-dark-btnMint: #ffffff;
+	--theme-neitral-btnMint: #0d121c;
+	--theme-default-btnMint: var(--theme-dark-btnMint);
+
+	/* THEMES rodmapText */
+	--theme-light-rodmapText: #2c2c2c;
+	--theme-dark-rodmapText: #2c2c2c;
+	--theme-neitral-rodmapText: #ffffff;
+	--theme-default-rodmapText: var(--theme-dark-rodmapText);
+
 	--theme-light-bgimage: linear-gradient(
 		to right bottom,
 		#051937,
@@ -219,12 +273,12 @@ i {
 .active_dropdown {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	background: var(--theme-default-dropdownBack);
 	border-radius: 3px;
 	margin-top: 1px;
-	padding: 20px 0px;
-	padding-bottom: 84px;
+	padding: 20px 32px;
+	padding-bottom: 34px;
 }
 .active_dropdown_public {
 	display: flex;

@@ -7,6 +7,7 @@
 	width: 326px;
 	right: 13px;
 	bottom: 56px;
+	border-radius: 3px;
 }
 .container_text {
 	position: absolute;

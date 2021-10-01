@@ -36,17 +36,17 @@ export const changeCssVariables = theme => {
     root.style.setProperty('--theme-default-timeText', `var(--theme-${theme}-timeText)`);
     root.style.setProperty('--theme-default-postContentText', `var(--theme-${theme}-postContentText)`);
     root.style.setProperty('--theme-default-activTextMob', `var(--theme-${theme}-activTextMob)`);
-
+    root.style.setProperty('--theme-default-titleAbout', `var(--theme-${theme}-titleAbout)`);
+    root.style.setProperty('--theme-default-cardName', `var(--theme-${theme}-cardName)`);
+    root.style.setProperty('--theme-default-cardLord', `var(--theme-${theme}-cardLord)`);
+    root.style.setProperty('--theme-default-textCardInfo', `var(--theme-${theme}-textCardInfo)`);
+    root.style.setProperty('--theme-default-placeholderLog', `var(--theme-${theme}-placeholderLog)`);
+    root.style.setProperty('--theme-default-logText', `var(--theme-${theme}-logText)`);
+    root.style.setProperty('--theme-default-logIputBacg', `var(--theme-${theme}-logIputBacg)`);
+    root.style.setProperty('--theme-default-btnMint', `var(--theme-${theme}-btnMint)`);
+    root.style.setProperty('--theme-default-rodmapText', `var(--theme-${theme}-rodmapText)`);
 
   }
-  // console.log(root.style, theme)
-  // const cssVariables = ['header', 'bgimage'];
-
-
-
 
 };
 
-// --theme-light-header: #dfe2df;
-// 	--theme-dark-header: #ca6c6f;
-// 	--theme-neitral-header: #3b5a99
