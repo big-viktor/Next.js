@@ -13,7 +13,7 @@ const TextRoadmap = ({ text, img, noneImg }) => {
         <div className={styles.container_text}>{text}</div>
         {!noneImg ? (
           <>
-            <img src={img.src} alt="lorem ipsun" className={styles.container_img} />
+            <img src={img} alt="lorem ipsun" className={styles.container_img} />
           </>) : (
           <>
             {undefined}

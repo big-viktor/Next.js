@@ -42,25 +42,25 @@ const ContentRoadmap = () => {
           <div className={styles.roadmap_container_down}>
             <div className={styles.roadmap_content_down}>
               <DownMenu name="40% SALES">
-                <TextRoadmap img={img1} text="Дропаем 10.000 nft PUNKS Prehistoric" />
+                <TextRoadmap img={img1.src} text="Дропаем 10.000 nft PUNKS Prehistoric" />
               </DownMenu>
             </div>
             <div className={styles.roadmap_content_down_rigth}>
               <DownMenu name="80% SALES">
-                <TextRoadmap img={img2} text="Дропаем 10.000 nft PUNKS Prehistoric" />
+                <TextRoadmap img={img2.src} text="Дропаем 10.000 nft PUNKS Prehistoric" />
               </DownMenu>
             </div>
           </div>
           <div className={styles.roadmap_container_down}>
             <div className={styles.roadmap_content_down_left}>
               <DownMenu name="1% SALES">
-                <TextRoadmap img={img1} text="Мы публикуем ваш пост на ленте сайта" noneImg="ture" />
+                <TextRoadmap img={img1.src} text="Мы публикуем ваш пост на ленте сайта" noneImg="ture" />
 
               </DownMenu>
             </div>
             <div className={styles.roadmap_content_down_two}>
               <DownMenu name="100% SALES">
-                <TextRoadmap img={img1} text="Мы публикуем ваш пост на ленте сайта" noneImg="ture" />
+                <TextRoadmap img={img1.src} text="Мы публикуем ваш пост на ленте сайта" noneImg="ture" />
                 <PlayVideo />
                 <div className={styles.roadmap_content_btn}>
                   <ButtonColor name="ЧИтать подробно об игре" />
