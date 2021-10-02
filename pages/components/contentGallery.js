@@ -109,7 +109,6 @@ const ContentGallery = ({ nameErra }) => {
 					<div className={styles.down_container__content} >
 						<div className={styles.down_container} onClick={() => setIsOpen(!isOpen)}><i className={isOpen ? styles.down : styles.down_revers}></i></div>
 					</div>
-
 				</div>
 			</>
 		);
