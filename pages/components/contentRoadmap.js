@@ -55,7 +55,6 @@ const ContentRoadmap = () => {
             <div className={styles.roadmap_content_down_left}>
               <DownMenu name="1% SALES">
                 <TextRoadmap img={img1.src} text="Мы публикуем ваш пост на ленте сайта" noneImg="ture" />
-
               </DownMenu>
             </div>
             <div className={styles.roadmap_content_down_two}>

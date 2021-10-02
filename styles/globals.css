@@ -221,6 +221,30 @@
 	--theme-neitral-rodmapText: #ffffff;
 	--theme-default-rodmapText: var(--theme-dark-rodmapText);
 
+	/* THEMES nameErra */
+	--theme-light-nameErra: #d6c699;
+	--theme-dark-nameErra: #3b5a99;
+	--theme-neitral-nameErra: #7a4fe8;
+	--theme-default-nameErra: var(--theme-dark-nameErra);
+
+	/* THEMES addImgText */
+	--theme-light-addImgText: #422b1a;
+	--theme-dark-addImgText: #a5a6a9;
+	--theme-neitral-addImgText: #7a4fe8;
+	--theme-default-addImgText: var(--theme-dark-addImgText);
+
+	/* THEMES downGallyre */
+	--theme-light-downGallyre: #b09870;
+	--theme-dark-downGallyre: #eaebef;
+	--theme-neitral-downGallyre: #080d23;
+	--theme-default-downGallyre: var(--theme-dark-downGallyre);
+
+	/* THEMES downGallyreBackg */
+	--theme-light-downGallyreBackg: rgba(66, 43, 26, 0.14);
+	--theme-dark-downGallyreBackg: rgba(196, 196, 196, 0.33);
+	--theme-neitral-downGallyreBackg: rgba(86, 58, 170, 0.44);
+	--theme-default-downGallyreBackg: var(--theme-dark-downGallyreBackg);
+
 	--theme-light-bgimage: linear-gradient(
 		to right bottom,
 		#051937,

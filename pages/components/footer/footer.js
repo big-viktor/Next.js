@@ -13,7 +13,7 @@ export default function Footer({ isIcon }) {
   const router = {
     routerLink1: {
       children: "Timeline",
-      href: "/",
+      href: "/Home",
 
     },
     routerLink2: {
@@ -23,7 +23,7 @@ export default function Footer({ isIcon }) {
     },
     routerLink3: {
       children: "Gallery",
-      href: "/",
+      href: "/Gallery",
     },
     routerLink4: {
       children: "Roadmap",

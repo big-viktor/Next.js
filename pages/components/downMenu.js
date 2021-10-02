@@ -2,9 +2,9 @@
 import React, { useState, useEffect, Children } from 'react';
 import styles from '../components/styles/downMenu.module.css';
 import { useTheme, THEME_Prehistori, THEME_Standart, THEME_Future } from '../components/ThemeProvaider.js';
+import { useRouter } from 'next/router';
 
-
-const DownMenu = ({ name, children }) => {
+const DownMenu = ({ name, children, href }) => {
   const [isOpen, setIsOpen] = useState(true);
   const [text, setText] = useState('PUNKS XXI');
   const isTheme = useTheme();
@@ -17,11 +17,16 @@ const DownMenu = ({ name, children }) => {
 
     }
   }, [isTheme]);
+  const router = useRouter()
+  const handleClick = (e) => {
+    e.preventDefault()
+    router.push(href)
+  }
   return (
     <>
       <div className={styles.container_down}>
         <div className={styles.content_down}>
-          <div className={styles.content_down_btn}>{name}</div>
+          <div className={styles.content_down_btn} onClick={handleClick} href={href}>{name}</div>
           <div className={styles.i_aroow} onClick={() => setIsOpen(!isOpen)}></div>
         </div>
         <div className={isOpen ? 'active_dropdown' : 'dropdown'}>

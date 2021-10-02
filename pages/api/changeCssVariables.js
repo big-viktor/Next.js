@@ -45,6 +45,10 @@ export const changeCssVariables = theme => {
     root.style.setProperty('--theme-default-logIputBacg', `var(--theme-${theme}-logIputBacg)`);
     root.style.setProperty('--theme-default-btnMint', `var(--theme-${theme}-btnMint)`);
     root.style.setProperty('--theme-default-rodmapText', `var(--theme-${theme}-rodmapText)`);
+    root.style.setProperty('--theme-default-nameErra', `var(--theme-${theme}-nameErra)`);
+    root.style.setProperty('--theme-default-addImgText', `var(--theme-${theme}-addImgText)`);
+    root.style.setProperty('--theme-default-downGallyre', `var(--theme-${theme}-downGallyre)`);
+    root.style.setProperty('--theme-default-downGallyreBackg', `var(--theme-${theme}-downGallyreBackg)`);
 
   }
 

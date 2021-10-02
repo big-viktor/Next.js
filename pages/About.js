@@ -7,15 +7,15 @@ import ContenAbout from './components/contentAbout';
 
 const About = () => {
 
-	return (
-		<>
-			<div >
-				<Header title="About" logButton={true} />
-				<ContenAbout title="About us" />
-				<Footer isIcon={true} />
-			</div>
-		</>
-	)
+  return (
+    <>
+      <div >
+        <Header title="About" logButton={true} />
+        <ContenAbout title="About us" />
+        <Footer isIcon={true} />
+      </div>
+    </>
+  )
 }
 
 export default About;

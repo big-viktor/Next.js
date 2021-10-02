@@ -61,7 +61,7 @@ const Content = ({ }) => {
     <>
       <div className={styles.wraper}>
         <div className={styles.content_menu_left} >
-          <DownMenu name="About us" >
+          <DownMenu name="About us" href="/About" >
             <div className={styles.container_down}>
               <div className={styles.container_infoBtn}>
                 <InfoBtn />
@@ -69,7 +69,7 @@ const Content = ({ }) => {
               <InfoText backgText={false} text="Мы создали панков в настоящем времени. И сейчас мы находимся в их соц сети. Но если вы дадите нам деняк, мы покажем, какие они были до, и какими будут в нашей игре." />
             </div>
           </DownMenu>
-          <DownMenu name="Gallery" >
+          <DownMenu name="Gallery" href="/Gallery">
             <div className={styles.container_img_router}>
               {images.map((name, index) => (
                 <>
@@ -84,7 +84,7 @@ const Content = ({ }) => {
               ))}
             </div>
           </DownMenu>
-          <DownMenu name="ROADMAP" >
+          <DownMenu name="ROADMAP" href="/Roadmap" >
             <div className={styles.container_img_router}>
               {Object.entries(roadmapImg).map(([key, value], i) => (
                 <>

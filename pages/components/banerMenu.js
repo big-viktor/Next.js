@@ -12,7 +12,6 @@ const BanerMenu = ({ }) => {
   const router = {
     routerLink1: {
       children: "Timeline",
-      // backImg: true,
       href: "/",
 
     },
@@ -23,7 +22,7 @@ const BanerMenu = ({ }) => {
     },
     routerLink3: {
       children: "Gallery",
-      href: "/",
+      href: "/Gallery",
     },
     routerLink4: {
       children: "Roadmap",

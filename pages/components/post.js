@@ -55,7 +55,6 @@ const Post = () => {
 
     }
   }, [isTheme]);
-  console.log(icon.src)
   return (
     <div className={styles.container_post}>
       <div className={styles.container_post_add}>
