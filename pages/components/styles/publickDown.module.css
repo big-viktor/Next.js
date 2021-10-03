@@ -18,6 +18,18 @@
 	height: 20px;
 	transform: rotate(45deg);
 	cursor: pointer;
+	transition: 0.6s;
+}
+.i_arrow_down {
+	border: solid var(--theme-default-publicAroww);
+	border-width: 0px 4px 4px 0;
+	display: inline-block;
+	padding: 0px;
+	width: 20px;
+	height: 20px;
+	transform: rotate(-48deg);
+	cursor: pointer;
+	transition: 0.6s;
 }
 .content_avatar {
 	display: flex;

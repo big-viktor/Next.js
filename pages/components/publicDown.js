@@ -27,7 +27,7 @@ const PublicDown = ({ children }) => {
               <BrouserIcon />
             </TimePublick>
           </div>
-          <div className={styles.i_aroow} onClick={() => setIsOpen(!isOpen)}></div>
+          <div className={isOpen ? styles.i_aroow : styles.i_arrow_down} onClick={() => setIsOpen(!isOpen)}></div>
         </div>
         <div className={isOpen ? 'active_dropdown_public' : 'dropdown'}>
           {children}

@@ -27,7 +27,7 @@ const DownMenu = ({ name, children, href }) => {
       <div className={styles.container_down}>
         <div className={styles.content_down}>
           <div className={styles.content_down_btn} onClick={handleClick} href={href}>{name}</div>
-          <div className={styles.i_aroow} onClick={() => setIsOpen(!isOpen)}></div>
+          <div className={isOpen ? styles.i_aroow : styles.i_arrow_down} onClick={() => setIsOpen(!isOpen)}></div>
         </div>
         <div className={isOpen ? 'active_dropdown' : 'dropdown'}>
           {children}

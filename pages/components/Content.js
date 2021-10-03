@@ -14,12 +14,9 @@ import IconGallery4 from '../../public/gallery/img4.png'
 import IconGallery5 from '../../public/gallery/img5.png'
 import IconGallery6 from '../../public/gallery/img6.png'
 
-import IconRoadmap1 from '../../public/gallery/icon1.png'
-import IconRoadmap2 from '../../public/gallery/roudmapImg.png'
-import IconRoadmap3 from '../../public/gallery/icon1.png'
-import Text from './text';
+import IconRoadmap1 from '../../public/gallery/icon1.png';
+import IconRoadmap2 from '../../public/gallery/roudmapImg.png';
 import RigMenu from './rigMenu';
-import UnstyledSlider from './sliders';
 
 
 const Content = ({ }) => {
