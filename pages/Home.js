@@ -25,8 +25,6 @@ const Home = () => {
     }
   }, [isTheme]);
   return (
-
-
     <>
       <div className={styles.container}>
         <Header title="Home" />

@@ -6,6 +6,9 @@ import styles from '../components/styles/untSlider.module.css'
 import SliderUnstyled from '@mui/core/SliderUnstyled';
 import { useState, useEffect } from 'react';
 import { useTheme, THEME_Prehistori, THEME_Standart, THEME_Future } from '../components/ThemeProvaider.js';
+import { useCallback } from 'next/router';
+
+
 const StyledSlider = styled(SliderUnstyled)(
   ({ theme }) => `
   color: ${theme.palette.mode === 'light' ? '#1976d2' : '#90caf9'};
@@ -120,9 +123,27 @@ const marks = [
 
 
 export default function UnstyledSlider() {
-  const [count, setCount] = useState();
   const isTheme = useTheme();
-  function valuetext(value) {
+
+  const themeToValue = (name) => {
+    if (name === THEME_Prehistori) {
+      return 15
+    }
+    if (name === THEME_Standart) {
+      return 50
+    }
+    if (name === THEME_Future) {
+      return 85
+    }
+  }
+
+  const [count, setCount] = React.useState(themeToValue(isTheme.theme));
+
+  const handleChange = (event, newValue) => {
+    setCount(newValue);
+  };
+
+  const valuetext = React.useCallback((value) => {
     if (value <= 40) {
       isTheme.change(THEME_Prehistori)
     }
@@ -132,7 +153,11 @@ export default function UnstyledSlider() {
     if (value >= 70) {
       isTheme.change(THEME_Future)
     }
-  }
+  }, [isTheme])
+
+  React.useEffect(() => valuetext(count), [count, valuetext]);
+
+
   return (
     <>
       <div className={styles.container_text}>
@@ -142,9 +167,10 @@ export default function UnstyledSlider() {
         <Box >
           <StyledSlider
             track={false}
-            aria-label="Restricted values"
-            getAriaValueText={valuetext}
+            aria-label="Restricted valueso"
+            onChange={handleChange}
             defaultValue={50}
+            value={count}
             marks={marks}
           />
         </Box>
@@ -152,57 +178,3 @@ export default function UnstyledSlider() {
     </>
   );
 }
-
-
-
-// const Sliders = () => {
-//   const [count, setCount] = useState();
-//   const isTheme = useTheme();
-//   function valuetext(value) {
-//     if (value <= 40) {
-//       isTheme.change(THEME_Prehistori)
-//     }
-//     if (value >= 40) {
-//       isTheme.change(THEME_Standart)
-//     }
-//     if (value >= 70) {
-//       isTheme.change(THEME_Future)
-//     }
-
-//   }
-//   useEffect(() => {
-
-//   })
-
-//   return (
-//     <>
-//       {/* <div>
-//         {isTheme.theme}
-//         <button onClick={() => isTheme.change(THEME_Prehistori)}>
-//           asd
-//         </button>
-//         <button onClick={() => isTheme.change(THEME_Standart)}>
-//           asd
-//         </button>
-//         <button onClick={() => isTheme.change(THEME_Future)}>
-//           asd
-//         </button>
-//       </div> */}
-//       <div>
-
-//         <Box sx={{ width: 250 }}>
-//           <Typography id="track-false-slider" gutterBottom>
-//             Change the era
-//           </Typography>
-//           <Slider
-//             track={false}
-//             aria-labelledby="track-false-slider"
-//             getAriaValueText={valuetext}
-//             defaultValue={50}
-//             marks={marks}
-//           />
-//         </Box>
-//       </div>
-//     </>
-//   );
-// }
