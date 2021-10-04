@@ -73,7 +73,7 @@ const ContentGallery = ({ nameErra }) => {
           </div>
         </div>
         <div className={styles.content_border}></div>
-        <div className={isOpen ? styles.container_revers : styles.container_revers_open }>
+        <div className={isOpen ? styles.container_revers : styles.container_revers_open}>
           <div className={styles.container__gallery_revers}>
             {item.map(() => (
               <>
@@ -90,7 +90,7 @@ const ContentGallery = ({ nameErra }) => {
               </>
             ))}
           </div>
-          <div className={ isOpen ? styles.container__gallery_bottom : styles.container__gallery_bottom_revers}>
+          <div className={isOpen ? styles.container__gallery_bottom : styles.container__gallery_bottom_revers}>
             {itemTwo.map(() => (
               <>
                 {ite.map(item => (
@@ -106,11 +106,10 @@ const ContentGallery = ({ nameErra }) => {
               </>
             ))}
           </div>
-         
         </div>
         <div className={styles.down_container__content} >
-            <div className={styles.down_container} onClick={() => setIsOpen(!isOpen)}><i className={isOpen ? styles.down : styles.down_revers}></i></div>
-          </div>
+          <div className={styles.down_container} onClick={() => setIsOpen(!isOpen)}><i className={isOpen ? styles.down : styles.down_revers}></i></div>
+        </div>
       </>
     );
   } else {
