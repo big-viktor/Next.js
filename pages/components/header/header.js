@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useState } from 'react'
 
 import Head from 'next/head';
@@ -7,9 +8,9 @@ import ButtonColor from '../button.js';
 import { useTheme, THEME_Prehistori, THEME_Standart, THEME_Future } from '../ThemeProvaider.js';
 
 // logo тем
-import LogoStandart from '../../../public/Logo.png';
-import LogoFuture from '../../../public/Group (9).png'
-import LogoPrehistori from '../../../public/Group (8).png'
+import LogoStandart from '../../../public/Logo/Group (20).png';
+import LogoFuture from '../../../public/Logo/Group (22).png'
+import LogoPrehistori from '../../../public/Logo/Group (21).png'
 
 import Icon1 from '../../../public/Vector (1).png';
 import Icon2 from '../../../public/Group (6).png';
@@ -55,7 +56,7 @@ const Header = ({ title, logButton }) => {
         </Head>
         <div className={styles.content_header}>
           <div>
-            <Image src={logo} alt="Vercel Logo" />
+            <img src={logo.src} alt="Vercel Logo" className={styles.content_logo} />
           </div>
           <div className={styles.icon_content}>
             <div className={styles.icon_img} >

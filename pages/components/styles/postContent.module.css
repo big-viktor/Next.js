@@ -14,3 +14,16 @@
 .content_img_post {
 	width: 100%;
 }
+@media(max-width:450px){
+	.content_post_text {
+		font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+		color: var(--theme-default-postContentText);
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 15px;
+	}	
+}

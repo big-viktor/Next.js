@@ -4,11 +4,11 @@
 	background-position: 0px -17px;
 	max-width: 1260px;
 	margin: 0 auto;
+	/* max-height: 100%; */
 	height: 620px;
-	height: 47.2vmax;
+	/* height: 47.2vmax; */
 	display: flex;
 	align-items: flex-end;
-
 	background-size: 100% 100%;
 }
 
@@ -82,7 +82,7 @@
 	}
 	.content_slider_dekst {
 		position: absolute;
-		bottom: -350px;
+		bottom: -315px;
 		width: 100%;
 		padding: 0 20px;
 	}
@@ -112,6 +112,9 @@
 		position: relative;
 		z-index: 10;
 		bottom: 25px;
+	}
+	.container_content {
+		height: 266px;
 	}
 }
 @media (min-width: 650px) {

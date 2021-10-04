@@ -156,7 +156,7 @@
 	--theme-default-timeText: var(--theme-dark-timeText);
 
 	/* THEMES postContentText */
-	--theme-light-postContentText: #fffadc;
+	--theme-light-postContentText: #2c2c2c;
 	--theme-dark-postContentText: #2c2c2c;
 	--theme-neitral-postContentText: #ffffff;
 	--theme-default-postContentText: var(--theme-dark-postContentText);
@@ -335,5 +335,14 @@ i {
 		width: 7px;
 		height: 10px;
 		margin-bottom: 1px;
+	}
+	.active_dropdown_public {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: var(--theme-default-dropdownBack);
+		border-radius: 3px;
+		padding: 0px 10px;
+		padding-bottom: 20px;
 	}
 }

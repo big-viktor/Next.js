@@ -88,19 +88,14 @@
 .container__gallery_bottom::after {
 	content: '';
 	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0.1px;
-	background: linear-gradient(
-		90deg,
-		#e9ebee 39.97%,
-		rgba(233, 235, 238, 0.1313) 137.14%,
-		rgba(233, 235, 238, 0) 158.62%
-	);
-	transform: rotate(360deg);
+	background-image: url('../../../public/Vector\ \(18\).png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+
 	opacity: 0.5;
 	z-index: 1;
-	height: 25%;
+	height: 100%;
+	width: 100%;
 	transition: 0.7s;
 }
 .container__gallery_bottom_revers {
@@ -164,19 +159,12 @@
 	.container__gallery_bottom::after {
 		content: '';
 		position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 0.1px;
-		background: linear-gradient(
-			90deg,
-			#e9ebee 39.97%,
-			rgba(233, 235, 238, 0.1313) 137.14%,
-			rgba(233, 235, 238, 0) 158.62%
-		);
+		background-image: url('../../../public/Vector\ \(18\).png');
+		background-repeat: no-repeat;
+		background-position: bottom;
 		transform: rotate(360deg);
 		opacity: 0.5;
 		z-index: 1;
-		height: 15%;
 		transition: 0.7s;
 	}
 	.content_name_erra_revers {

@@ -39,7 +39,20 @@
 }
 @media (max-width: 440px) {
 	.i_aroow {
-		width: 15px;
-		height: 15px;
+		width: 12px;
+		height: 12px;
+	}
+	.i_arrow_down{
+		width: 13px;
+		height: 13px;
+	}
+	.container_public_activ {
+		margin-top: 30px;
+		display: flex;
+		flex-direction: row;
+		background: var(--theme-default-dropdownBack);
+		padding: 20px 10px;
+		justify-content: space-between;
+		align-items:flex-start;
 	}
 }

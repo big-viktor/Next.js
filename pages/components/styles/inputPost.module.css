@@ -4,27 +4,41 @@
 	border-radius: 5px;
 	width: 423px;
 	width: 100%;
-	padding: 15px 10px;
+	padding-left: 15px;
 	margin-left: 20px;
+	height: 54px;
+	display: flex;
+	align-items: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	color: var(--theme-default-inputPlaceholder);
 }
 .placeholder_input::placeholder {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 21px;
-	line-height: 25px;
+	color: var(--theme-default-inputPlaceholder);
+}
+.placeholder_input:focus-visible {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
 	color: var(--theme-default-inputPlaceholder);
 }
 @media (max-width: 500px) {
 	.placeholder_input {
 		height: 25px;
+		margin-left: 12px;
 	}
 	.placeholder_input::placeholder {
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: 500;
-		font-size: 14px;
-		line-height: 16px;
+		font-size: 13px;
+		line-height: 12px;
 		color: var(--theme-default-inputPlaceholder);
 	}
 }

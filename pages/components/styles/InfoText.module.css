@@ -28,4 +28,14 @@
 		margin-top: 25px;
 		width: 100%;
 	}
+	.container_info_text {
+		
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+		color: var(--theme-default-infoText);
+		max-width: 386px;
+	}
 }

@@ -14,7 +14,7 @@ const ContentMint = () => {
         <div className={styles.container_mint_title}>
           <Title title="Login" />
         </div>
-        <div>
+        <div className={styles.content_mint_input}>
           <div className={styles.container_mint_input}>
             <Input placeholder="Name of your punk" />
           </div>

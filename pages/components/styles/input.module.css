@@ -7,14 +7,17 @@
 	height: 65px;
 	display: flex;
 	align-items: center;
+	line-height: 28px;
+	padding-top: 10px;
 }
 .container_inputLog::placeholder {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 24px;
-	line-height: 28px;
+	margin-top: 20px;
 	color: var(--theme-default-placeholderLog);
+	margin-top: 15px;
 }
 @media (max-width: 470px) {
 	.container_inputLog::placeholder {
@@ -23,5 +26,17 @@
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 21px;
+	}
+	.container_inputLog {
+		background: var(--theme-default-logIputBacg);
+		border-radius: 3px;
+		width: 100%;
+		border: none;
+		padding: 0px 19px;
+		height: 50px;
+		display: flex;
+		align-items: center;
+		line-height: 28px;
+		padding-top: 5px;
 	}
 }
