@@ -48,6 +48,39 @@
 .container_revers {
 	max-width: 1100px;
 	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	transition: 0.1s;
+	height: 1500px;
+	overflow: hidden;
+}
+.container_revers::after {
+	content: '';
+	position: absolute;
+	background-image: url('../../../public/Vector\ \(18\).png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+
+	opacity: 0.5;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	transition: 0.7s;
+}
+.container_revers_open {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	transition: 0.1s;
+	height: auto;
+	overflow: hidden;
 }
 .content_name_erra_revers {
 	font-family: Roboto;
@@ -85,19 +118,7 @@
 	height: 490px;
 	overflow: hidden;
 }
-.container__gallery_bottom::after {
-	content: '';
-	position: absolute;
-	background-image: url('../../../public/Vector\ \(18\).png');
-	background-repeat: no-repeat;
-	background-position: bottom;
 
-	opacity: 0.5;
-	z-index: 1;
-	height: 100%;
-	width: 100%;
-	transition: 0.7s;
-}
 .container__gallery_bottom_revers {
 	margin-top: 110px;
 	display: flex;
@@ -156,17 +177,19 @@
 	}
 }
 @media (max-width: 630px) {
-	.container__gallery_bottom::after {
-		content: '';
-		position: absolute;
-		background-image: url('../../../public/Vector\ \(18\).png');
-		background-repeat: no-repeat;
-		background-position: bottom;
-		transform: rotate(360deg);
-		opacity: 0.5;
-		z-index: 1;
-		transition: 0.7s;
+	.container_revers {
+		max-width: 1100px;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
+		position: relative;
+		transition: 0.1s;
+		height: 670px;
+		overflow: hidden;
 	}
+
 	.content_name_erra_revers {
 		font-family: Roboto;
 		font-style: normal;
